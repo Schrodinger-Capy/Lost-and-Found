@@ -1,0 +1,236 @@
+.header{
+  background-color: rgb(157, 157, 234);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+#websitename{
+  font-size: 30px;
+}
+
+.loginbutton{
+  background-color: hsl(240, 69%, 61%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.loginbutton:hover{
+  transform: scale(1.05);
+  background-color: hsl(240, 69%, 51%);
+}
+
+.searchbar{
+  margin-top: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.searchinput{
+  width: 98.5%;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.additembutton{
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 20px 30px;
+  background-color: hsl(240, 69%, 61%);
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  border: none;
+  z-index: 1000;
+}
+
+.additembutton:hover{
+  transform: scale(1.05);
+  background-color: hsl(240, 69%, 51%);
+}
+
+.appcontainer{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.maincontent{
+  flex: 1;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+#copyright{
+  width: 100%;
+  text-align: center;
+  bottom: 0px;
+  padding-bottom: 30px;
+  color: rgb(71, 71, 71);
+}
+
+.logincontainer{
+  margin: auto;
+  width: 50%;
+  border: 1px solid rgb(89, 89, 224);
+  box-shadow: 5px 5px 5px rgb(89, 89, 224);
+  padding: 50px 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.inputloginpage{
+  width: 30%;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.headinglp{
+  font-size: 20px;
+}
+
+.loginpagebutton{
+  margin-top: 20px;
+  width: 20%;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(89, 89, 224);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#lptorp{
+  color: red;
+  text-decoration: none;
+}
+
+#rptolp{
+  color: red;
+  text-decoration: none;
+}
+
+.itemgrid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.itemcard {
+  border: 1px solid rgb(89, 89, 224);
+  padding: 10px;
+  width: 400px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgb(89, 89, 224);
+  transition: transform 0.2s ease;
+  background-color: #e8f1fd;
+}
+
+.itemcard:hover {
+  transform: scale(1.05);
+}
+
+.itemcardimage {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.popupbg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(7, 7, 66, 0.451);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popupcontent {
+  background: #e6f0fc;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  max-height: 90vh;
+  overflow-y: auto;
+  font-size: 18px;
+}
+
+.popupitemimage {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.popupclosebutton {
+  margin-top: 15px;
+  padding: 10px 30px;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #d64329;
+  color: white;
+  margin: 5px auto;
+  font-size: 20px;
+}
+
+.aipopupbg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(7, 7, 66, 0.451);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.aipopupcontent {
+  background: #e6f0fc;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  max-height: 90vh;
+  overflow-y: auto;
+  font-size: 18px;
+}
+
+.inputaip{
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+#aipopupbutton{
+  margin-top: 15px;
+  padding: 10px 30px;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #d64329;
+  color: white;
+  margin: 5px auto;
+  font-size: 20px;
+}
